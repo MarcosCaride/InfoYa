@@ -219,6 +219,11 @@ h6{
   text-align: center;
 }
 
+h7{
+  text-align: center;
+  float: right;
+}
+
 h2{
   color: red;
 }
