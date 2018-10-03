@@ -133,8 +133,8 @@ body {
   transition: 0.8s all;
     border-radius: 5px;
     cursor: pointe;
-    transition: ;
-
+    height: 210px;
+    object-fit: contain;
 }
 
 .myImg:hover{
