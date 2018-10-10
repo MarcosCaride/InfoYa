@@ -18,8 +18,11 @@ header{
 
 .games{
   margin: 0 auto;
+  text-align: center!important;
+}
+
+.videos{
   text-align: center;
-  display: inline-block;
 }
 
 footer{
@@ -59,7 +62,17 @@ h1{
   color: Black;
   margin: 50px;
   font-size: 25px;
-  background-color: rgba(255,255,255,0.50)
+  background-color: rgba(255,255,255,0.50);
+  overflow:hidden;
+}
+
+.P3{
+  text-align: center;
+  color: Black;
+  margin: 50px;
+  font-size: 25px;
+  background-color: rgba(255,255,255,0.50);
+  overflow:hidden;
 }
 
 /* Add a black background color to the top navigation bar */
@@ -131,8 +144,9 @@ body {
 
 .myImg {
   transition: 0.8s all;
-    border-radius: 5px;
-    cursor: pointe;
+    border-radius: 5px !important;
+    cursor: pointer;
+    width: 23%;
     height: 210px;
     object-fit: contain;
 }
