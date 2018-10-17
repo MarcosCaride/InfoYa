@@ -148,7 +148,6 @@ body {
     cursor: pointer;
     width: 23%;
     height: 210px;
-    object-fit: contain;
 }
 
 .myImg:hover{
