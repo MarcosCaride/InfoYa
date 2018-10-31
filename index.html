@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <header>
       <h1>InfoYa</h1>
     </header>
@@ -25,7 +25,7 @@
 
     <div class="container">
   <h2></h2>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel"> caride gay
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -125,6 +125,26 @@
 <br>
 
     <footer>Copyright (c) 2018 Copyright Holder All Rights Reserved.</footer>
+    <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+      });
+    }
+    </script>
 
   </body>
 </html>
